@@ -4,6 +4,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: row;
+  margin: 0%;
 }
 
 body h3 {
@@ -71,4 +72,17 @@ aside ul li a {
 main {
   padding: 3rem;
   line-height: 2rem;
+}
+
+@media (max-width: 376px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  body aside {
+    width: 110%;
+  }
+  body main {
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */
