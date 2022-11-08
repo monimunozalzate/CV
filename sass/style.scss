@@ -22,7 +22,7 @@ body span{
     padding: 1rem 0ñ
 }
 body aside{
-    width: 100%;
+    width: 80%;
     background-color: $primaryColor;
     color: $secondaryColor;
     padding: 2rem;
@@ -62,13 +62,13 @@ main{
     line-height: 2rem;
 }
 //mobile
-@media(max-width:426px){
+@media(max-width:768px){
     body{
         display: flex;
         flex-direction: column;
     }
     body aside{
-        width: 100%;
+        width: 140%;
         padding: 3rem;
         display: flex;
         flex-direction: column;
