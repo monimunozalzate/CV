@@ -19,13 +19,13 @@ body h4{
 }
 body span{
     color: lightgray;
-    padding: 1rem 0ñ
+    padding: 1rem 
 }
 body aside{
     width: 80%;
     background-color: $primaryColor;
     color: $secondaryColor;
-    padding: 2rem;
+    padding: 6rem 2rem 2rem 2rem;
 }
 aside div{
     text-align: center;
@@ -68,7 +68,7 @@ main{
         flex-direction: column;
     }
     body aside{
-        width: 140%;
+        width: 100%;
         padding: 3rem;
         display: flex;
         flex-direction: column;
